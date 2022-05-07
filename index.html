@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Percussion Instruction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- styles.css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Animate On Scroll AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Animate On Scroll AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!-- Content goes here-->
+
+    <!-- begin Carousel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Drum Head Image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>All or Nothing</h5>
+            <p>To be successful, hard work must be applied.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="Sheet Music image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Practice Makes Perfect</h5>
+            <p>Music is something that requires time and commitment.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="Crash Cymbal Image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Share with the World</h5>
+            <p>
+              The sounds and melodies created from music should be appreciated
+              by all!
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/zwSqwPSMi7E"
+        title="YouTube Video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <!-- end Carousel-->
+
+    <!-- Font Awesome Row begin -->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-chalkboard-user fa-row-icon"></i><br />
+          <a href="#">Lessons</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-drum fa-row-icon"></i><br />
+          <a href="#">Instruments</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-record-vinyl fa-row-icon"></i><br />
+          <a href="#">Shop</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-sliders fa-row-icon"></i><br />
+          <a href="#">Sound Engineering</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-play fa-row-icon"></i><br />
+          <a href="#">Instructor's Present</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-headphones-simple fa-row-icon"></i><br />
+          <a href="#">Gear Needs</a>
+        </div>
+      </div>
+    </div>
+    <!-- Font Awesome Row end -->
+
+    <!-- first description section begins -->
+    <div class="container volunteer-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="Volunteer image"
+          />
+          <h2>Wanna be a part of us?</h2>
+
+          <p>
+            If you have a drive and desire to share your knowledge in
+            percussion, then here is how to join! Click that volunteer button
+            and fill out our short volunteer form. We want to know how we can
+            use your knowledge to help our percussion community with the about
+            you section.
+          </p>
+
+          <p>
+            If you want to donate to our organization, make sure to click the
+            donation button. With the number of percussion instruments out there
+            to learn, we are always in need of help to acquire these many
+            instruments to provide a broad range of musical education to our
+            students.
+          </p>
+
+          <p>
+            As a show of our appreciation for your donation, we will send a
+            T-shirt and other goodies to you to help spread awareness of our
+            little organization.
+          </p>
+
+          <p>
+            Don't forget to choose your T-shirt size and color!
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+              >Volunteer Now</a
+            >
+            <a href="donate.html" class="btn btn-outline-primary btn-volunteer">
+              Donate Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- first description section end -->
+
+    <!-- gallery begins -->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/1.jpg">
+            <img
+              src="/images/fancybox/thumbs/1.jpg"
+              class="img-responsive img-fancybox"
+              alt="Snare drum Bottom"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/2.jpg">
+            <img
+              src="/images/fancybox/thumbs/2.jpg"
+              class="img-responsive img-fancybox"
+              alt="Snare Drum Top"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/3.jpg">
+            <img
+              src="/images/fancybox/thumbs/3.jpg"
+              class="img-responsive img-fancybox"
+              alt="Floor Tom"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/4.jpg">
+            <img
+              src="/images/fancybox/thumbs/4.jpg"
+              class="img-responsive img-fancybox"
+              alt="Drum Set"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div clas="col-12 text-center">
+          <a href="gallery.html" class="btn btn-outline-primary btn-gallery"
+            >View Gallery</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- gallery ends -->
+
+    <!-- second description section begins -->
+    <div class="container contact-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Contact-us.jpg"
+            class="img-responsive contact-img"
+            alt="Contact us"
+          />
+          <h2>How to get in contact</h2>
+
+          <p>
+            We have instructors to help with many percussion instruments
+            including drum set, xylophone, marimba, drum set, timpani, snare
+            drum, bass drum and even smaller instruments like the triangle! If
+            you are interested in getting some private one-on-one lessons, click
+            that contact button to get more information.
+          </p>
+
+          <p>
+            Virtual lessons are now being offered. We will work around your
+            schedule to get you the help you need. Any sheet music we are
+            working on with you can be sent via email so that you always have
+            something to work on to improve your skills.
+          </p>
+
+          <p>
+            <strong>
+              Your first lesson is completely free! No subscription required!
+            </strong>
+          </p>
+
+          <div>
+            <a href="footerInfo" class="btn btn-outline-primary btn-contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second description section ends -->
+
+    <!-- members begin -->
+    <div class="container text-center staff" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/1.jpg"
+            alt="Staff 1"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            Music is the language of the spirit. It opens the secret of life
+            bringing peace, abolishing strife.
+            <cite>Kahlil Gibran</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/2.jpg"
+            alt="Staff 2"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            Music is the only language in which you cannot say a mean or
+            sarcastic thing.
+            <cite>John Erskine</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/3.jpg"
+            alt="Staff 3"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            Music is the universal language of mankind.
+            <cite>Henry Wadsworth Longfellow</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- members end -->
+
+    <!-- Content goes here-->
+    <div id="bottom"></div>
+
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
